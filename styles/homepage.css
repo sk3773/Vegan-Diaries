@@ -5,7 +5,9 @@
     height: 70px;
     align-items: center; 
     background-color: #556B2F; 
+    border-bottom: 2px solid #333; 
 }
+
 
 body, html {
     background-color: #FAF0E6; 
@@ -15,23 +17,27 @@ body, html {
     min-height: 100%; 
 }
 
+
 .content {
     padding: 30px 15px;
     margin-top: 40px; 
     margin-bottom: 120px; 
 }
 
+
 .footer {
     position: fixed;
-    background-color: #333;
-    left: 0;
     bottom: 0;
+    left: 0;
     width: 100%;
+    background-color: #333;
     color: white;
     text-align: center;
     padding: 10px;
     font-size: 0.85rem;
+    border-top: 2px solid #333;
 }
+
 
 .container {
     padding-bottom: 15px; 
@@ -43,6 +49,7 @@ body, html {
     background-color: #fff;
     padding: 20px;
     color: white; 
+    border: 2px solid #333; 
 }
 
 
@@ -54,7 +61,7 @@ body, html {
 
     .content {
         padding: 20px; 
-        margin-bottom: 100px;
+        margin-bottom: 100px; 
     }
 
     .footer {
@@ -62,7 +69,6 @@ body, html {
         padding: 6px; 
     }
 
-  
     .navbar-menu {
         display: none; 
         flex-direction: column;
@@ -117,5 +123,4 @@ body, html {
         text-decoration: none;
         display: block;
     }
-
 }
