@@ -19,11 +19,11 @@ body {
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: rgba(34, 139, 34, 0.7);
+    background-color: #228B22;
     color: black;
     text-align: center;
     padding: 15px;
-    font-size: 0.5rem;
+    font-size: 12px;
     margin-top: 40px;
     border-top: 2px solid #6DBE45;
 }
@@ -35,7 +35,7 @@ body, html {
 }
 
 .container {
-    padding-bottom: 60px; 
+    padding-bottom: 15px; 
 
 
     
