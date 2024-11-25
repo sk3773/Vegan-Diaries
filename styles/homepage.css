@@ -1,10 +1,10 @@
 /* DEVELOPER: Sanavi Kothari, IS117-004, Fall 2024 */
 
 .navbar {
-    background-color: #228B22 !important; 
     padding: 1rem 1.5rem; 
     height: 70px;
     align-items: center; 
+    background-color: #556B2F; 
 }
 
 body, html {
@@ -18,7 +18,7 @@ body, html {
 .content {
     padding: 30px 15px;
     margin-top: 40px; 
-    margin-bottom: 100px; 
+    margin-bottom: 120px; 
 }
 
 .footer {
@@ -37,6 +37,15 @@ body, html {
     padding-bottom: 15px; 
 }
 
+/* Style for card */
+.card {
+    border-radius: 15px; 
+    background-color: #fff;
+    padding: 20px;
+    color: white; 
+}
+
+
 @media (max-width: 768px) {
     .navbar {
         padding: 1rem; 
@@ -45,12 +54,68 @@ body, html {
 
     .content {
         padding: 20px; 
-        margin-bottom: 80px; 
+        margin-bottom: 100px; 
     }
 
     .footer {
         font-size: 0.75rem;
         padding: 6px; 
     }
+
+   
+    .navbar-menu {
+        display: none; 
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar-menu.active {
+        display: flex; 
+    }
+
+    .navbar-toggle {
+        display: block; 
+        background-color: #333;
+        border: none;
+        padding: 10px;
+        cursor: pointer;
+    }
+
+    .navbar-toggle span {
+        display: block;
+        width: 25px;
+        height: 3px;
+        background-color: white;
+        margin: 5px auto;
+    }
 }
 
+@media (max-width: 768px) {
+    .navbar {
+        background-color: #556B2F; 
+        position: relative;
+    }
+
+    .navbar-menu {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background-color: #556B2F;
+    }
+
+    .navbar-menu.active {
+        display: block;
+    }
+
+    .navbar-menu a {
+        color: white;
+        text-align: center;
+        padding: 12px;
+        text-decoration: none;
+        display: block;
+    }
+
+   
+}
