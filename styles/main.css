@@ -18,6 +18,7 @@ body {
 
 .footer {
     background-color: rgba(34, 139, 34, 0.7);
+    position: fixed;
     color: black;
     text-align: center;
     padding: 15px;
