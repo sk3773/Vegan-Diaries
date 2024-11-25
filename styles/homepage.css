@@ -1,0 +1,45 @@
+/* DEVELOPER Sanavi Kothari, IS117-004, Fall 2024 */
+
+.navbar {
+    padding: 1rem 1.5rem;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black; 
+}
+
+.content {
+    padding: 30px 15px;
+    margin-top: 40px;
+}
+
+.card {
+    border: 2px solid #6DBE45; 
+    color: white;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.footer {
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+    border-top: 2px solid #6DBE45;
+    font-size: 14px;
+}
+
+
+
+.navbar .form-control {
+    border-radius: 20px;
+    padding-left: 15px;
+    border: 2px solid #6DBE45;
+}
+
