@@ -22,17 +22,16 @@ body, html {
     margin-bottom: 60px; 
 }
 
+}
 .footer {
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: #228B22;
-    color: rgba(255, 255, 255, 0.7); 
+    color: white;
     text-align: center;
-    padding: 8px; 
-    font-size: 0.875rem; 
-    border-top: 2px solid #6DBE45;
+    padding: 10px;
+    font-size: 0.85rem;
 }
 
 .container {
