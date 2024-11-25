@@ -1,6 +1,5 @@
 /* DEVELOPER: Sanavi Kothari, IS117-004, Fall 2024 */
 
-
 .navbar {
     background-color: #228B22 !important; 
     padding: 1rem 1.5rem; 
@@ -19,7 +18,7 @@ body, html {
 .content {
     padding: 30px 15px;
     margin-top: 40px; 
-    margin-bottom: 60px; 
+    margin-bottom: 100px; /* Increased bottom margin to create space for footer */
 }
 
 .footer {
@@ -46,7 +45,7 @@ body, html {
 
     .content {
         padding: 20px; 
-        margin-bottom: 50px; 
+        margin-bottom: 80px; /* Adjusted bottom margin */
     }
 
     .footer {
