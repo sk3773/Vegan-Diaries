@@ -1,4 +1,5 @@
-.navbar {
+
+.navbar { 
     background-color: #228B22 !important; 
     padding: 1rem 1.5rem; 
     height: 70px;
@@ -6,7 +7,7 @@
 }
 
 body, html {
-    background-color: #228B22; 
+    background-color: #FAF0E6; 
     margin: 0; 
     font-family: Arial, sans-serif;
     height: 100%; 
@@ -34,6 +35,3 @@ body, html {
 .container {
     padding-bottom: 15px; 
 }
-
-
-
