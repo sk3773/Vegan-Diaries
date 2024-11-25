@@ -37,7 +37,7 @@ body, html {
     padding-bottom: 15px; 
 }
 
-/* Style for card */
+
 .card {
     border-radius: 15px; 
     background-color: #fff;
@@ -54,7 +54,7 @@ body, html {
 
     .content {
         padding: 20px; 
-        margin-bottom: 100px; 
+        margin-bottom: 100px;
     }
 
     .footer {
@@ -62,7 +62,7 @@ body, html {
         padding: 6px; 
     }
 
-   
+  
     .navbar-menu {
         display: none; 
         flex-direction: column;
@@ -90,9 +90,10 @@ body, html {
     }
 }
 
+
 @media (max-width: 768px) {
     .navbar {
-        background-color: #556B2F; 
+        background-color: #556B2F;
         position: relative;
     }
 
@@ -117,5 +118,4 @@ body, html {
         display: block;
     }
 
-   
 }
