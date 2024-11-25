@@ -13,7 +13,7 @@
 body {
     background-color: #FAF0E6; 
     margin: 0;
-    font-family: Arial, sans-serif; /* Optional: improve readability */
+    font-family: Arial, sans-serif; 
 }
 
 /* Content Styles */
@@ -31,7 +31,7 @@ body {
     background-color: #228B22;
     color: black;
     text-align: center;
-    padding: 15px;
+    padding: 10px;
     font-size: 12px;
     margin-top: 40px;
     border-top: 2px solid #6DBE45;
