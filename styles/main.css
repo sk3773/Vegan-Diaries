@@ -35,4 +35,16 @@ body, html {
     padding-bottom: 15px; 
 }
 
+.navbar { 
+    background-color: #228B22 !important; 
+    padding: 1rem 1.5rem; 
+    height: 70px;
+    align-items: center; 
+    transition: background-color 0.3s ease; 
+}
+
+.navbar:active {
+    background-color: #66CDAA !important; 
+}
+
 
