@@ -22,9 +22,9 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
-                <!-- Navbar Links (collapsible on small screens) -->
+                <!-- Navbar Links (aligned to the left) -->
                 <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                    <ul class="navbar-nav ms-auto">
+                    <ul class="navbar-nav me-auto">
                         <li class="nav-item">
                             <a class="nav-link" href="about-us.html">About Us</a>
                         </li>
@@ -44,8 +44,8 @@
                     </ul>
                 </div>
 
-                <!-- Search Form (adjusted for mobile responsiveness) -->
-                <form class="d-flex w-50 mx-auto d-md-none" role="search">
+                <!-- Search Form (aligned to the right) -->
+                <form class="d-flex w-50 ms-auto d-md-block" role="search">
                     <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                 </form>
             </nav>
@@ -115,11 +115,17 @@
             </div>
         </div>
 
-        <!-- Footer Section -->
-        <footer class="footer page-footer font-small mt-4">
+        <!-- Medium-Sized Footer Section -->
+        <footer class="footer bg-dark text-white mt-4 py-4">
             <div class="container">
                 <div class="row">
-                    <span class="text-muted">&copy; Sanavi Kothari, 2024 | Terms Of Use | Privacy Statement</span>
+                    <div class="col-md-6 text-center text-md-start">
+                        <span>&copy; Sanavi Kothari, 2024</span>
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <a href="#" class="text-white me-3">Terms Of Use</a>
+                        <a href="#" class="text-white">Privacy Statement</a>
+                    </div>
                 </div>
             </div>
         </footer>
@@ -133,4 +139,3 @@
 </body>
 
 </html>
-
