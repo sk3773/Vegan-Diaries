@@ -36,10 +36,4 @@ body, html {
     padding-bottom: 15px; 
 }
 
-.navbar-brand img {
-    display: block;
-    margin-top: 0; 
-    margin-bottom: 0; 
-    height: 70px; 
-    max-height: 100%;
 }
